@@ -29,21 +29,21 @@ $ node index -s 5 -a encode
 >type input in the console: `hello`
 >output in the console: `czggj`
 ```
-open new terminal+ cd CLI-tool
+click CTRL+C
 
 $ node index -s 5 -a decode
 ```
 >type input in the console: `czggj`
 >output in the console: `hello`
 ```
-open new terminal+ cd CLI-tool
+click CTRL+C
 
 $ node index -s 6 -o test3.txt -a encode
 ```
 >type input in the console: `hello`
 >output in the test3.txt: `Byffi`
 ```
-open new terminal + cd CLI-tool
+click CTRL+C
 $ node index -s 6 -i test3.txt -a decode
 ```
 >output in the console: `hello`
