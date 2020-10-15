@@ -1,5 +1,5 @@
-const usersRepo = require('./user.repository');
-const tasksRepo = require('../tasks/task.repository');
+const usersRepo = require('./user.memory.repository');
+const tasksRepo = require('../tasks/task.memory.repository');
 
 const User = require('./user.model');
 
@@ -14,27 +14,7 @@ const getOneById = async id => {
     return User.toResponse(result);
   }
 };
-const deleteOneById = async userId => {
-  try {
-    const allTasks = await tasksRepo.getAll();
 
-    const tasks = allTasks.filter(task => task.userId === userId);
-
-    for (const task of tasks) {
-      await tasksRepo.putOneById(task.id, { ...task, userId: null });
-    }
-
-    await usersRepo.deleteOneById(userId);
-  } catch (err) {
-    throw new Error(`USER_${err.message}`);
-  }
-};
-const putOneById = async (id, user) => {
-  const result = await usersRepo.putOneById(id, user);
-  if (result) {
-    return User.toResponse(result);
-  }
-};
 const postOne = async ({ name, login, password }) => {
   const user = new User({ name, login, password });
 
@@ -42,10 +22,30 @@ const postOne = async ({ name, login, password }) => {
   return User.toResponse(result);
 };
 
+const putOneById = async (id, user) => {
+  const result = await usersRepo.putOneById(id, user);
+  if (result) {
+    return User.toResponse(result);
+  }
+};
+
+const deleteOneById = async userId => {
+  const allTasks = await tasksRepo.getAll();
+
+  const tasks = allTasks.filter(task => task.userId === userId);
+
+  for (const task of tasks) {
+    await tasksRepo.putOneById(task.id, { ...task, userId: null });
+  }
+
+  const isDeleted = await usersRepo.deleteOneById(userId);
+  return isDeleted;
+};
+
 module.exports = {
   getAll,
-  deleteUser: deleteOneById,
   getUser: getOneById,
   postUser: postOne,
-  putUser: putOneById
+  putUser: putOneById,
+  deleteUser: deleteOneById
 };

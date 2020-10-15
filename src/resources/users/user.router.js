@@ -1,61 +1,68 @@
 const router = require('express').Router();
+const { BAD_REQUEST, NOT_FOUND, getStatusText } = require('http-status-codes');
+
 const usersService = require('./user.service');
-const { ERRORS, MESSAGES } = require('../../common/variables');
+const { ErrorHandler, catchErrors } = require('../../common/error');
+const { ERRORS, MESSAGES } = require('../../common/constants');
 
 /* eslint-disable callback-return */
 
-router.route('/:userId').delete(async (req, res, next) => {
-  const { userId } = req.params;
+router
+  .route('/')
+  .get(
+    catchErrors(async (req, res) => {
+      const users = await usersService.getAll();
+      res.json(users);
+    })
+  )
+  .post(
+    catchErrors(async (req, res) => {
+      const { name, login, password } = req.body;
 
-  try {
-    await usersService.deleteUser(userId);
-    res.status(204).send(MESSAGES.USERDELETED);
-  } catch (err) {
-    next(ERRORS[err.message] || ERRORS.BAD_REQUEST);
-  }
-});
+      if (name && login && password) {
+        const user = await usersService.postUser({ name, login, password });
+        res.json(user);
+      } else {
+        throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
+      }
+    })
+  );
 
-router.route('/').get(async (req, res, next) => {
-  try {
-    const users = await usersService.getAll();
-    res.json(users);
-  } catch (err) {
-    next(ERRORS.BAD_REQUEST);
-  }
-});
+router
+  .route('/:userId')
+  .get(
+    catchErrors(async (req, res) => {
+      const { userId } = req.params;
 
-router.route('/:userId').get(async (req, res, next) => {
-  const { userId } = req.params;
+      const user = await usersService.getUser(userId);
+      if (!user) {
+        throw new ErrorHandler(NOT_FOUND, ERRORS.USER_NOT_FOUND);
+      }
+      res.json(user);
+    })
+  )
+  .put(
+    catchErrors(async (req, res) => {
+      const { userId } = req.params;
+      const user = req.body;
 
-  const user = await usersService.getUser(userId);
-  if (user) {
-    res.json(user);
-  } else {
-    next(ERRORS.NOUSER);
-  }
-});
+      const result = await usersService.putUser(userId, user);
+      if (!result) {
+        throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
+      }
+      res.json(result);
+    })
+  )
+  .delete(
+    catchErrors(async (req, res) => {
+      const { userId } = req.params;
 
-router.route('/').post(async (req, res, next) => {
-  const { name, login, password } = req.body;
-
-  if (name && login && password) {
-    const user = await usersService.postUser({ name, login, password });
-    res.json(user);
-  } else {
-    next(ERRORS.BAD_REQUEST);
-  }
-});
-
-router.route('/:userId').put(async (req, res, next) => {
-  const { userId } = req.params;
-  const user = req.body;
-
-  const result = await usersService.putUser(userId, user);
-  if (result) {
-    res.json(result);
-  } else {
-    next(ERRORS.BAD_REQUEST);
-  }
-});
+      const isDeleted = await usersService.deleteUser(userId);
+      if (!isDeleted) {
+        throw new ErrorHandler(NOT_FOUND, ERRORS.USER_NOT_FOUND);
+      }
+      res.status(204).send(MESSAGES.DELETE_USER_SUCCESSFULL_MESSAGE);
+    })
+  );
 
 module.exports = router;

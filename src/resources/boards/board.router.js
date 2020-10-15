@@ -1,59 +1,61 @@
 const router = require('express').Router();
+const { BAD_REQUEST, NOT_FOUND, getStatusText } = require('http-status-codes');
+
 const boardsService = require('./board.service');
-
-const { ERRORS, MESSAGES } = require('../../common/variables');
-
+const { ErrorHandler, catchErrors } = require('../../common/error');
+const { ERRORS, MESSAGES } = require('../../common/constants');
 /* eslint-disable callback-return */
 
-router.route('/').post(async (req, res, next) => {
-  const board = await boardsService.postBoard(req.body);
-  if (!board) {
-    next(ERRORS.BAD_REQUEST);
-  }
-  res.json(board);
-});
+router
+  .route('/')
+  .get(
+    catchErrors(async (req, res) => {
+      const boards = await boardsService.getAll();
+      res.json(boards);
+    })
+  )
+  .post(
+    catchErrors(async (req, res) => {
+      const board = await boardsService.postBoard(req.body);
+      res.json(board);
+    })
+  );
 
-router.route('/').get(async (req, res, next) => {
-  try {
-    const boards = await boardsService.getAll();
-    res.json(boards);
-  } catch (err) {
-    next(ERRORS.BAD_REQUEST);
-  }
-});
+router
+  .route('/:boardId')
+  .get(
+    catchErrors(async (req, res) => {
+      const { boardId } = req.params;
 
-router.route('/:boardId').put(async (req, res, next) => {
-  const { boardId } = req.params;
-  const board = req.body;
+      const board = await boardsService.getBoard(boardId);
+      if (!board) {
+        throw new ErrorHandler(NOT_FOUND, ERRORS.BOARD_NOT_FOUND);
+      }
+      res.json(board);
+    })
+  )
+  .put(
+    catchErrors(async (req, res) => {
+      const { boardId } = req.params;
+      const board = req.body;
 
-  const result = await boardsService.putBoard(boardId, board);
-  if (result) {
-    res.json(result);
-  } else {
-    next(ERRORS.BAD_REQUEST);
-  }
-});
+      const result = await boardsService.putBoard(boardId, board);
+      if (!result) {
+        throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
+      }
+      res.json(result);
+    })
+  )
+  .delete(
+    catchErrors(async (req, res) => {
+      const { boardId } = req.params;
 
-router.route('/:boardId').delete(async (req, res, next) => {
-  const { boardId } = req.params;
-
-  try {
-    await boardsService.deleteBoard(boardId);
-    res.status(204).send(MESSAGES.BOARDDELETED);
-  } catch (err) {
-    next(ERRORS[err.message] || ERRORS.BAD_REQUEST);
-  }
-});
-
-router.route('/:boardId').get(async (req, res, next) => {
-  const { boardId } = req.params;
-
-  const board = await boardsService.getBoard(boardId);
-  if (board) {
-    res.json(board);
-  } else {
-    next(ERRORS.NOBOARD);
-  }
-});
+      const isDeleted = await boardsService.deleteBoard(boardId);
+      if (!isDeleted) {
+        throw new ErrorHandler(NOT_FOUND, ERRORS.BOARD_NOT_FOUND);
+      }
+      res.status(204).send(MESSAGES.DELETE_BOARD_SUCCESSFULL_MESSAGE);
+    })
+  );
 
 module.exports = router;

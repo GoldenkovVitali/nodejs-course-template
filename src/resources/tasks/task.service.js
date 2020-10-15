@@ -1,29 +1,11 @@
-const tasksRepo = require('./task.repository');
-const boardsRepo = require('../boards/board.repository');
-const {
-  BAD_REQUEST,
-  TASK_NOT_FOUND
-} = require('../../common/variables').ERRORS;
+const { BAD_REQUEST, NOT_FOUND, getStatusText } = require('http-status-codes');
+const { ErrorHandler } = require('../../common/error');
+
+const tasksRepo = require('./task.memory.repository');
+const boardsRepo = require('../boards/board.memory.repository');
+const { TASK_NOT_FOUND } = require('../../common/constants').ERRORS;
 
 const Task = require('./task.model');
-
-const getOneById = async (id, taskId) => {
-  try {
-    const board = await boardsRepo.getOneById(id);
-    if (!board) {
-      throw new Error('NOT_FOUND');
-    }
-
-    const result = await tasksRepo.getOneById(taskId);
-    if (!result) {
-      throw new Error('NOT_FOUND');
-    }
-
-    return Task.toResponse(result);
-  } catch (err) {
-    throw new Error(`TASK_${err.message}`);
-  }
-};
 
 const getAll = async id => {
   const board = await boardsRepo.getOneById(id);
@@ -42,44 +24,55 @@ const postOne = async (id, taskFields) => {
   }
 };
 
-const deleteOneById = async (id, taskId) => {
-  try {
-    const board = await boardsRepo.getOneById(id);
-    if (!board) {
-      throw new Error('NOT_FOUND');
-    }
-
-    const task = await tasksRepo.getOneById(taskId);
-
-    if (!task) {
-      throw new Error('NOT_FOUND');
-    }
-
-    await tasksRepo.deleteOneById(taskId);
-  } catch (err) {
-    throw new Error(`TASK_${err.message}`);
+const getOneById = async (id, taskId) => {
+  const board = await boardsRepo.getOneById(id);
+  if (!board) {
+    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
   }
+
+  const result = await tasksRepo.getOneById(taskId);
+  if (!result) {
+    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
+  }
+
+  return Task.toResponse(result);
 };
 
 const putOneById = async (id, taskId, task) => {
   const board = await boardsRepo.getOneById(id);
 
   if (!board) {
-    throw new Error(BAD_REQUEST.message);
+    throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
   }
 
   const result = await tasksRepo.putOneById(taskId, task);
 
   if (!result) {
-    throw new Error(TASK_NOT_FOUND.message);
+    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
   }
   return Task.toResponse(result);
 };
 
+const deleteOneById = async (id, taskId) => {
+  const board = await boardsRepo.getOneById(id);
+  if (!board) {
+    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
+  }
+
+  const task = await tasksRepo.getOneById(taskId);
+
+  if (!task) {
+    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
+  }
+
+  const isDeleted = await tasksRepo.deleteOneById(taskId);
+  return isDeleted;
+};
+
 module.exports = {
-  deleteTask: deleteOneById,
   getAll,
   postTask: postOne,
   getTask: getOneById,
-  putTask: putOneById
+  putTask: putOneById,
+  deleteTask: deleteOneById
 };
