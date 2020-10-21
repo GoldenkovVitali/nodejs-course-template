@@ -1,27 +1,26 @@
-const { BAD_REQUEST, NOT_FOUND, getStatusText } = require('http-status-codes');
-const { ErrorHandler } = require('../../common/error');
-
-const tasksRepo = require('./task.memory.repository');
-const boardsRepo = require('../boards/board.memory.repository');
+const { NOT_FOUND, BAD_REQUEST, getStatusText } = require('http-status-codes');
 const { TASK_NOT_FOUND } = require('../../common/constants').ERRORS;
 
+const { ErrorHandler } = require('../../common/error');
+const tasksRepo = require('./task.db.repository');
+const boardsRepo = require('../boards/board.db.repository');
 const Task = require('./task.model');
 
 const getAll = async id => {
   const board = await boardsRepo.getOneById(id);
-  if (!board) return;
+  if (!board) {
+    throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
+  }
+
   const tasks = await tasksRepo.getAll();
+
   if (!tasks) return [];
-  return tasks.filter(({ boardId }) => boardId === id).map(Task.toResponse);
+  return tasks.filter(({ boardId }) => boardId === id);
 };
 
 const postOne = async (id, taskFields) => {
-  const board = await boardsRepo.getOneById(id);
-  if (board) {
-    const task = new Task({ ...taskFields, boardId: id });
-    const result = await tasksRepo.postOne({ ...task });
-    return Task.toResponse(result);
-  }
+  const task = await tasksRepo.postOne({ ...taskFields, boardId: id });
+  return Task.toResponse(task);
 };
 
 const getOneById = async (id, taskId) => {
@@ -30,33 +29,33 @@ const getOneById = async (id, taskId) => {
     throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
   }
 
-  const result = await tasksRepo.getOneById(taskId);
-  if (!result) {
+  const task = await tasksRepo.getOneById(taskId);
+  if (!task) {
     throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
   }
 
-  return Task.toResponse(result);
+  return Task.toResponse(task);
 };
 
 const putOneById = async (id, taskId, task) => {
   const board = await boardsRepo.getOneById(id);
-
   if (!board) {
     throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
   }
 
-  const result = await tasksRepo.putOneById(taskId, task);
+  const newTask = await tasksRepo.putOneById(taskId, task);
 
-  if (!result) {
+  if (!newTask) {
     throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
   }
-  return Task.toResponse(result);
+
+  return Task.toResponse(newTask);
 };
 
 const deleteOneById = async (id, taskId) => {
   const board = await boardsRepo.getOneById(id);
   if (!board) {
-    throw new ErrorHandler(NOT_FOUND, TASK_NOT_FOUND);
+    throw new ErrorHandler(BAD_REQUEST, getStatusText(BAD_REQUEST));
   }
 
   const task = await tasksRepo.getOneById(taskId);
