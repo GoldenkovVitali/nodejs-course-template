@@ -1,5 +1,5 @@
-const boardRepo = require('./board.memory.repository');
-const tasksRepo = require('../tasks/task.memory.repository');
+const boardRepo = require('./board.db.repository');
+const tasksRepo = require('../tasks/task.db.repository');
 const Board = require('./board.model');
 const Column = require('./column.model');
 
@@ -16,7 +16,7 @@ const getOneById = async id => {
 };
 
 const postOne = async body => {
-  const { columns, title } = body;
+  const { columns, title = 'title' } = body;
   const newColumns = columns
     ? columns.map(column => {
         const { title: t, order } = column;
@@ -25,9 +25,7 @@ const postOne = async body => {
       })
     : [];
 
-  const board = new Board({ title: title || 'title', columns: newColumns });
-
-  const result = await boardRepo.postOne({ ...board });
+  const result = await boardRepo.postOne({ title, columns: newColumns });
 
   return Board.toResponse(result);
 };
@@ -51,6 +49,7 @@ const deleteOneById = async boardId => {
   }
 
   const isDeleted = await boardRepo.deleteOneById(boardId);
+
   return isDeleted;
 };
 
