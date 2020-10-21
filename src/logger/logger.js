@@ -83,12 +83,14 @@ const processErrorLogger = (message, errorType) => {
 /* eslint-disable-next-line no-unused-vars */
 const errorLogger = (err, req, res, next) => {
   const { statusCode, message } = handleError(err, res);
+  const level = statusCode >= 400 && statusCode < 500 ? 'warn' : 'error';
+
   const { logToFile } = getLogsFromRequest(req);
 
   const time = new Date().toString();
   const errString = `${time} | Error ${statusCode}: ${message}`;
-  winstonConsole.log('error', errString);
-  winstonFile.log('error', `${errString} | Request: ${logToFile}`);
+  winstonConsole.log(level, errString);
+  winstonFile.log(level, `${errString} | Request: ${logToFile}`);
 };
 
 module.exports = {
