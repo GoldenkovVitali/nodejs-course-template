@@ -1,0 +1,40 @@
+{"level":"error","message":"Thu Oct 22 2020 22:28:39 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [<dbname>.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:31:30 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [<dbname>.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:31:42 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [<dbname>.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:41:02 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:41:15 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:42:28 GMT+0300 (GMT+03:00) | Uncaught Exception: database names cannot contain the character '.'"}
+{"level":"error","message":"Thu Oct 22 2020 22:42:43 GMT+0300 (GMT+03:00) | Uncaught Exception: database names cannot contain the character '.'"}
+{"level":"error","message":"Thu Oct 22 2020 22:46:41 GMT+0300 (GMT+03:00) | Unhandled Rejection: (Unauthorized) not authorized on admin to execute command { dropDatabase: 1, writeConcern: { w: \"majority\" }, lsid: { id: {4 [188 68 216 99 80 25 73 86 141 156 96 114 167 176 58 27]} }, $clusterTime: { clusterTime: {1603395915 1}, signature: { hash: {0 [106 208 226 129 151 212 227 130 109 143 245 92 220 28 37 242 158 13 31 9]}, keyId: 6886070410832510976.000000 } }, $db: \"admin\" }"}
+{"level":"error","message":"Thu Oct 22 2020 22:46:51 GMT+0300 (GMT+03:00) | Unhandled Rejection: (Unauthorized) not authorized on admin to execute command { dropDatabase: 1, writeConcern: { w: \"majority\" }, lsid: { id: {4 [147 112 169 68 198 173 79 163 145 0 187 14 130 22 59 29]} }, $clusterTime: { clusterTime: {1603395933 1}, signature: { hash: {0 [122 168 110 62 3 81 144 24 67 212 195 219 93 157 108 90 238 22 159 247]}, keyId: 6886070410832510976.000000 } }, $db: \"admin\" }"}
+{"level":"error","message":"Thu Oct 22 2020 22:53:37 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 22:53:51 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:01:10 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:01:22 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:03:18 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:03:31 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:10:03 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:13:04 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest1.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:13:34 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest1.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:17:51 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest2.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:18:10 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest2.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:22:54 GMT+0300 (GMT+03:00) | Unhandled Rejection: querySrv ENOTFOUND _mongodb._tcp.rsschoolcluster-wx4t4.mongodb.net"}
+{"level":"error","message":"Thu Oct 22 2020 23:23:06 GMT+0300 (GMT+03:00) | Unhandled Rejection: querySrv ENOTFOUND _mongodb._tcp.rsschoolcluster-wx4t4.mongodb.net"}
+{"level":"error","message":"Thu Oct 22 2020 23:24:36 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:35:18 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:35:26 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected token '{'"}
+{"level":"error","message":"Thu Oct 22 2020 23:35:29 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:36:30 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot access 'userSchema' before initialization"}
+{"level":"error","message":"Thu Oct 22 2020 23:36:33 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected token '.'"}
+{"level":"error","message":"Thu Oct 22 2020 23:36:36 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:36:53 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Thu Oct 22 2020 23:50:11 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected string"}
+{"level":"error","message":"Thu Oct 22 2020 23:50:31 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected identifier"}
+{"level":"error","message":"Thu Oct 22 2020 23:50:36 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected identifier"}
+{"level":"error","message":"Thu Oct 22 2020 23:50:39 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:08:38 GMT+0300 (GMT+03:00) | Unhandled ejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:08:47 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:09:37 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:09:52 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:10:19 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}
+{"level":"error","message":"Fri Oct 23 2020 00:18:48 GMT+0300 (GMT+03:00) | Unhandled Rejection: user is not allowed to do action [dropDatabase] on [rest.]"}

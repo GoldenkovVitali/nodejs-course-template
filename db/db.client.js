@@ -13,7 +13,6 @@ const connectToDB = cb => {
 
   db.once('open', async () => {
     console.log('DB connected!');
-    await db.dropDatabase();
     cb();
   });
 };
