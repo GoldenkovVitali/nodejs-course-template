@@ -186,3 +186,518 @@
 {"level":"info","message":"{ url: /boards/d50b8b7b-e2ff-4153-9ec2-e3a327c03f2b/tasks/92602d65-c05f-474c-b209-facb9153faa6, method: GET, body: null, query_params: null }"}
 {"level":"warn","message":"Fri Oct 23 2020 00:29:14 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/d50b8b7b-e2ff-4153-9ec2-e3a327c03f2b/tasks/92602d65-c05f-474c-b209-facb9153faa6, method: GET, body: null, query_params: null }"}
 {"level":"info","message":"{ url: /boards/d50b8b7b-e2ff-4153-9ec2-e3a327c03f2b, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /favicon.ico, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: string, login: string, password: string}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/74f160da-0527-47cb-80b6-06fd0e2cbe45, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1812c49f-5627-41da-b5c4-e5ce85732224, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b37f11d5-0393-40ed-812e-daf41de58e30, method: PUT, body: {id: b37f11d5-0393-40ed-812e-daf41de58e30, columns: [{\"id\":\"ada01bf8-27d7-400d-89bc-0358e06d1015\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"4913fb2b-c8d6-4c76-b25d-ba6f3b8892f4\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b37f11d5-0393-40ed-812e-daf41de58e30, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b37f11d5-0393-40ed-812e-daf41de58e30, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/efb9c52b-5c84-4e12-ba82-9930dc9f2dbb, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/efb9c52b-5c84-4e12-ba82-9930dc9f2dbb, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:38 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/efb9c52b-5c84-4e12-ba82-9930dc9f2dbb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: f44059b9-fdec-4731-9065-ddb21fa337ed, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: f44059b9-fdec-4731-9065-ddb21fa337ed, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: f44059b9-fdec-4731-9065-ddb21fa337ed, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: f44059b9-fdec-4731-9065-ddb21fa337ed, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: f44059b9-fdec-4731-9065-ddb21fa337ed, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/f1e43dce-8533-48de-b42f-5cb8f267282a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/ebf601e2-1593-4703-960a-6484fa09e177, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/0d60fe2c-8f81-4b1b-a949-6ff691f39ba3, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/66fc99f4-2c5b-48ea-977d-d1ca9279f50f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/a296a8b6-b2ce-4e99-ac6d-5c9742c600d2, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/f1e43dce-8533-48de-b42f-5cb8f267282a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/ebf601e2-1593-4703-960a-6484fa09e177, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/0d60fe2c-8f81-4b1b-a949-6ff691f39ba3, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/66fc99f4-2c5b-48ea-977d-d1ca9279f50f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/a296a8b6-b2ce-4e99-ac6d-5c9742c600d2, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:40 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/f1e43dce-8533-48de-b42f-5cb8f267282a, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:40 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/ebf601e2-1593-4703-960a-6484fa09e177, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:40 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/66fc99f4-2c5b-48ea-977d-d1ca9279f50f, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:40 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/0d60fe2c-8f81-4b1b-a949-6ff691f39ba3, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:40 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/f44059b9-fdec-4731-9065-ddb21fa337ed/tasks/a296a8b6-b2ce-4e99-ac6d-5c9742c600d2, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/74f160da-0527-47cb-80b6-06fd0e2cbe45, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/377a9dc2-5799-4aa9-ad8c-bf535c1d7639, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/377a9dc2-5799-4aa9-ad8c-bf535c1d7639, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/d3f39a83-8a59-4885-87a2-d0986adc2ba9, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/39a32e70-f18e-4b81-a330-714264259f2a, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 39a32e70-f18e-4b81-a330-714264259f2a}, query_params: null }"}
+{"level":"info","message":"{ url: /users/39a32e70-f18e-4b81-a330-714264259f2a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/39a32e70-f18e-4b81-a330-714264259f2a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/640ab2c3-881e-4674-9eb5-8c988784e0f0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: c27e16cc-8122-4e63-8ae1-73fddb5e7387, boardId: 241a2a03-dac8-40dc-ac49-b40af3f3d426}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: c27e16cc-8122-4e63-8ae1-73fddb5e7387, boardId: 241a2a03-dac8-40dc-ac49-b40af3f3d426}, query_params: null }"}
+{"level":"info","message":"{ url: /users/c27e16cc-8122-4e63-8ae1-73fddb5e7387, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks/3f54e88e-91f2-411a-a599-f339e718fa80, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks/807391fd-4f6c-4b91-9c42-0f279c33f1f8, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks/3f54e88e-91f2-411a-a599-f339e718fa80, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426/tasks/807391fd-4f6c-4b91-9c42-0f279c33f1f8, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/241a2a03-dac8-40dc-ac49-b40af3f3d426, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/a379c688-b9a9-4efb-84d3-37a6905cc828, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/30718d3b-02b5-4e2e-9478-8845ff18ea37, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/cde99ecf-a47a-4bba-af10-582bb4608cf4, method: PUT, body: {id: cde99ecf-a47a-4bba-af10-582bb4608cf4, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: e3d8e8eb-8d63-42f0-8500-3a9ab3334d71, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/cde99ecf-a47a-4bba-af10-582bb4608cf4, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/a379c688-b9a9-4efb-84d3-37a6905cc828, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/a379c688-b9a9-4efb-84d3-37a6905cc828, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/a379c688-b9a9-4efb-84d3-37a6905cc828, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Fri Oct 23 2020 19:07:45 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71/tasks/a379c688-b9a9-4efb-84d3-37a6905cc828, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e3d8e8eb-8d63-42f0-8500-3a9ab3334d71, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7177e496-a88b-41b0-94e2-2de806516f33, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/04fac4f6-cbd4-4359-bd40-1f04ea0441d5, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/aebf0eda-b54f-4bd5-8975-a53f64500460, method: PUT, body: {id: aebf0eda-b54f-4bd5-8975-a53f64500460, columns: [{\"id\":\"91032117-bc16-4c4b-a89d-cdee210e4ddc\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"95ff90b0-3fae-409b-b0c1-ff00bc9e02f1\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/aebf0eda-b54f-4bd5-8975-a53f64500460, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/aebf0eda-b54f-4bd5-8975-a53f64500460, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/6c1dc282-aa1e-479f-8145-31267332562c, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/6c1dc282-aa1e-479f-8145-31267332562c, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:09 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/6c1dc282-aa1e-479f-8145-31267332562c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 7d1ada6a-c9b4-43f3-8093-a539d4f52a05, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 7d1ada6a-c9b4-43f3-8093-a539d4f52a05, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 7d1ada6a-c9b4-43f3-8093-a539d4f52a05, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 7d1ada6a-c9b4-43f3-8093-a539d4f52a05, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 7d1ada6a-c9b4-43f3-8093-a539d4f52a05, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/9b323397-6185-45e9-b53f-d3786b0adf20, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d85449b3-8089-4e83-a33f-26c0650c0dbb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d6edbb79-4837-4696-939f-68ab9de5432d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/c833ca01-a320-417a-8ebb-f102c2bc509e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/7bda434a-43e9-4e82-b925-c5c84bd3e621, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/9b323397-6185-45e9-b53f-d3786b0adf20, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d85449b3-8089-4e83-a33f-26c0650c0dbb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d6edbb79-4837-4696-939f-68ab9de5432d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/c833ca01-a320-417a-8ebb-f102c2bc509e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/7bda434a-43e9-4e82-b925-c5c84bd3e621, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/9b323397-6185-45e9-b53f-d3786b0adf20, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d85449b3-8089-4e83-a33f-26c0650c0dbb, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/d6edbb79-4837-4696-939f-68ab9de5432d, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/c833ca01-a320-417a-8ebb-f102c2bc509e, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7d1ada6a-c9b4-43f3-8093-a539d4f52a05/tasks/7bda434a-43e9-4e82-b925-c5c84bd3e621, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7177e496-a88b-41b0-94e2-2de806516f33, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/e8afa5cc-61e3-454f-9c06-c62ee1fe0275, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/da8c6965-dbd0-40f3-a422-ce508217e1cf, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/a69ca56e-66ae-4e4f-9a1b-5c0e9a04bf4c, method: PUT, body: {id: a69ca56e-66ae-4e4f-9a1b-5c0e9a04bf4c, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: 09c10cfe-41a8-4289-8586-d515dbb8f93a, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/a69ca56e-66ae-4e4f-9a1b-5c0e9a04bf4c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/e8afa5cc-61e3-454f-9c06-c62ee1fe0275, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/e8afa5cc-61e3-454f-9c06-c62ee1fe0275, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/e8afa5cc-61e3-454f-9c06-c62ee1fe0275, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:25:13 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a/tasks/e8afa5cc-61e3-454f-9c06-c62ee1fe0275, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/09c10cfe-41a8-4289-8586-d515dbb8f93a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/84a27718-6d82-43c4-90c7-2d627ed265b8, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/84a27718-6d82-43c4-90c7-2d627ed265b8, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/5e5891a8-b923-465a-ac43-3ea3834226a7, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/867fa97a-3d2e-409f-8d49-880903439e85, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 867fa97a-3d2e-409f-8d49-880903439e85}, query_params: null }"}
+{"level":"info","message":"{ url: /users/867fa97a-3d2e-409f-8d49-880903439e85, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/867fa97a-3d2e-409f-8d49-880903439e85, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/14f75673-00f6-46ba-80be-912d3dcb50d0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 60c980fe-11ac-4d07-b6c3-2dbf82fa1c90, boardId: 13f858e3-92ce-486f-8426-c7c8f0f845f1}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 60c980fe-11ac-4d07-b6c3-2dbf82fa1c90, boardId: 13f858e3-92ce-486f-8426-c7c8f0f845f1}, query_params: null }"}
+{"level":"info","message":"{ url: /users/60c980fe-11ac-4d07-b6c3-2dbf82fa1c90, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks/828e5318-7078-441a-9277-d8d7de2f98ea, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks/36efcd46-38ea-4662-bf1b-d6adc3bd97a9, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks/828e5318-7078-441a-9277-d8d7de2f98ea, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1/tasks/36efcd46-38ea-4662-bf1b-d6adc3bd97a9, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/13f858e3-92ce-486f-8426-c7c8f0f845f1, method: DELETE, body: null, query_params: null }"}
+{"level":"error","message":"Sun Oct 25 2020 08:28:58 GMT+0300 (GMT+03:00) | Uncaught Exception: Unexpected token 'return'"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/cf060f42-1aa3-42b8-a81a-6d549aef4183, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/42f143bb-8097-4549-b3fe-4a839b2007eb, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/531c6713-a154-487d-93fa-44d36a696d0a, method: PUT, body: {id: 531c6713-a154-487d-93fa-44d36a696d0a, columns: [{\"id\":\"247c9606-197f-4a37-9160-1e163dd6958e\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"4b58264a-c8db-4e4b-a014-55bc87876ba0\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/531c6713-a154-487d-93fa-44d36a696d0a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/531c6713-a154-487d-93fa-44d36a696d0a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/64900430-8f90-4014-b1b3-42cc214e517c, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/64900430-8f90-4014-b1b3-42cc214e517c, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:23 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/64900430-8f90-4014-b1b3-42cc214e517c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 2b40202e-9287-4b5a-b200-96d3e29b0815, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 2b40202e-9287-4b5a-b200-96d3e29b0815, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 2b40202e-9287-4b5a-b200-96d3e29b0815, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 2b40202e-9287-4b5a-b200-96d3e29b0815, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 2b40202e-9287-4b5a-b200-96d3e29b0815, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/a91701ab-ca6d-441e-b310-2f7bd8b51e50, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/66a84972-adf2-45ec-9a99-6c0f9f77db2c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/849826c4-80b6-445a-90a4-ec13223a417e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/138cc49e-af1c-41cf-806f-88d3564c7d1a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/ab6fc0d7-c0e9-42d5-ba23-e4be53240fb5, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/a91701ab-ca6d-441e-b310-2f7bd8b51e50, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/66a84972-adf2-45ec-9a99-6c0f9f77db2c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/849826c4-80b6-445a-90a4-ec13223a417e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/138cc49e-af1c-41cf-806f-88d3564c7d1a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/ab6fc0d7-c0e9-42d5-ba23-e4be53240fb5, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:24 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/a91701ab-ca6d-441e-b310-2f7bd8b51e50, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:24 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/66a84972-adf2-45ec-9a99-6c0f9f77db2c, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:24 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/849826c4-80b6-445a-90a4-ec13223a417e, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:24 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/ab6fc0d7-c0e9-42d5-ba23-e4be53240fb5, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:24 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2b40202e-9287-4b5a-b200-96d3e29b0815/tasks/138cc49e-af1c-41cf-806f-88d3564c7d1a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/cf060f42-1aa3-42b8-a81a-6d549aef4183, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/7cca5310-9350-4548-8f77-17c0f2d554c0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/7cca5310-9350-4548-8f77-17c0f2d554c0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/051baac8-030c-47f1-9721-2eba7d334a71, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/5c0c4260-28ab-4447-bdb4-9df04b4397ca, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 5c0c4260-28ab-4447-bdb4-9df04b4397ca}, query_params: null }"}
+{"level":"info","message":"{ url: /users/5c0c4260-28ab-4447-bdb4-9df04b4397ca, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/5c0c4260-28ab-4447-bdb4-9df04b4397ca, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/5ab86d0e-e7be-4273-9e60-3a0aedab6363, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 1edf2d55-67fc-45b1-92cf-2834c9c5f0e0, boardId: 21ba5623-85e2-489e-9c0b-cace74e1d2f7}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 1edf2d55-67fc-45b1-92cf-2834c9c5f0e0, boardId: 21ba5623-85e2-489e-9c0b-cace74e1d2f7}, query_params: null }"}
+{"level":"info","message":"{ url: /users/1edf2d55-67fc-45b1-92cf-2834c9c5f0e0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7/tasks/2b684e74-b401-4498-9ddc-83b0bcececb8, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/71816f01-278d-400a-8a4d-a02959f71f07, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/b2602f8d-17fb-487e-b621-0d28ce42ea7e, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/1ed93025-a573-4493-8a81-34b48179b6fa, method: PUT, body: {id: 1ed93025-a573-4493-8a81-34b48179b6fa, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: bed08500-2fc6-4b3d-8ff5-c66279d8c493, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/1ed93025-a573-4493-8a81-34b48179b6fa, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/71816f01-278d-400a-8a4d-a02959f71f07, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/71816f01-278d-400a-8a4d-a02959f71f07, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/71816f01-278d-400a-8a4d-a02959f71f07, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:36:29 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493/tasks/71816f01-278d-400a-8a4d-a02959f71f07, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bed08500-2fc6-4b3d-8ff5-c66279d8c493, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/5db77040-2335-49fd-b90a-7ae4300b51ae, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/5db77040-2335-49fd-b90a-7ae4300b51ae, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/36b963a8-ea06-471d-ac16-ab67686bdcea, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/08f743b6-7c05-4b92-87f1-e82b99394bc7, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 08f743b6-7c05-4b92-87f1-e82b99394bc7}, query_params: null }"}
+{"level":"info","message":"{ url: /users/08f743b6-7c05-4b92-87f1-e82b99394bc7, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/08f743b6-7c05-4b92-87f1-e82b99394bc7, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/b717333a-8fda-4403-9343-5131ea7e2c0d, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/4ed43c0c-dc96-4e4c-9060-b5581106e52c/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 11e81d7e-bccd-4f8b-894a-00f93b5e2a58, boardId: 4ed43c0c-dc96-4e4c-9060-b5581106e52c}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/4ed43c0c-dc96-4e4c-9060-b5581106e52c/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 11e81d7e-bccd-4f8b-894a-00f93b5e2a58, boardId: 4ed43c0c-dc96-4e4c-9060-b5581106e52c}, query_params: null }"}
+{"level":"info","message":"{ url: /users/11e81d7e-bccd-4f8b-894a-00f93b5e2a58, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/4ed43c0c-dc96-4e4c-9060-b5581106e52c/tasks/bbeac8df-12f2-4cf3-bc63-42b51443e8e6, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/14727c19-256e-4641-8550-23e70197c4fe, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/d13108b7-a464-4fe4-8f2d-8ac5951bedbe, method: PUT, body: {id: d13108b7-a464-4fe4-8f2d-8ac5951bedbe, columns: [{\"id\":\"76f758b2-e309-4ac6-8d2d-092768dc7457\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"6f79d4fa-214b-4b98-8edb-2cf7cffcd726\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/d13108b7-a464-4fe4-8f2d-8ac5951bedbe, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/d13108b7-a464-4fe4-8f2d-8ac5951bedbe, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/4f867414-3c39-4f35-b0ba-84dd538f0ae0, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/4f867414-3c39-4f35-b0ba-84dd538f0ae0, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:58 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/4f867414-3c39-4f35-b0ba-84dd538f0ae0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: c9901cea-60b1-4314-a0c3-ba92dad1e86c, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: c9901cea-60b1-4314-a0c3-ba92dad1e86c, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: c9901cea-60b1-4314-a0c3-ba92dad1e86c, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: c9901cea-60b1-4314-a0c3-ba92dad1e86c, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: c9901cea-60b1-4314-a0c3-ba92dad1e86c, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/3aeeb5ba-9d78-4094-82bf-f82161154606, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/5d78583f-ba4b-4667-9ab9-a4316b398d2c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/d5f2bc3d-efed-4868-b2b9-cd98af0eff6c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/8e8403de-8681-4f7d-9e7c-d614a3a8bc7e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/7bfe5e34-2c8e-4994-86d6-601032f098f6, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/3aeeb5ba-9d78-4094-82bf-f82161154606, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/5d78583f-ba4b-4667-9ab9-a4316b398d2c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/7bfe5e34-2c8e-4994-86d6-601032f098f6, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/d5f2bc3d-efed-4868-b2b9-cd98af0eff6c, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/8e8403de-8681-4f7d-9e7c-d614a3a8bc7e, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:59 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/5d78583f-ba4b-4667-9ab9-a4316b398d2c, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:59 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/3aeeb5ba-9d78-4094-82bf-f82161154606, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:59 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/7bfe5e34-2c8e-4994-86d6-601032f098f6, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:59 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/d5f2bc3d-efed-4868-b2b9-cd98af0eff6c, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:37:59 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9901cea-60b1-4314-a0c3-ba92dad1e86c/tasks/8e8403de-8681-4f7d-9e7c-d614a3a8bc7e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7465e00f-4a47-4adb-bb6e-50675d1d7985, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/cfb2785b-d3f2-4133-8312-75ed242b7e98, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/d24744a9-6b84-4068-b417-f8ca67ca6b7a, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/d04e548c-0c20-425a-aed7-0f6d389887fe, method: PUT, body: {id: d04e548c-0c20-425a-aed7-0f6d389887fe, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: 7741f9b9-167f-4e53-864b-c18564dc85c5, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/d04e548c-0c20-425a-aed7-0f6d389887fe, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/cfb2785b-d3f2-4133-8312-75ed242b7e98, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/cfb2785b-d3f2-4133-8312-75ed242b7e98, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/cfb2785b-d3f2-4133-8312-75ed242b7e98, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:38:01 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5/tasks/cfb2785b-d3f2-4133-8312-75ed242b7e98, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7741f9b9-167f-4e53-864b-c18564dc85c5, method: DELETE, body: null, query_params: null }"}
+{"level":"error","message":"Sun Oct 25 2020 08:45:55 GMT+0300 (GMT+03:00) | Uncaught Exception: Identifier 'User' has already been declared"}
+{"level":"error","message":"Sun Oct 25 2020 08:46:08 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot find module './nask.model'\nRequire stack:\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.db.repository.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.service.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.router.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\app.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\server.js"}
+{"level":"error","message":"Sun Oct 25 2020 08:46:12 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot find module './task.model'\nRequire stack:\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.db.repository.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.service.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.router.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\app.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\server.js"}
+{"level":"error","message":"Sun Oct 25 2020 08:46:16 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot find module '.././task.model'\nRequire stack:\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.db.repository.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.service.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.router.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\app.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\server.js"}
+{"level":"error","message":"Sun Oct 25 2020 08:46:20 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot find module '../task.model'\nRequire stack:\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.db.repository.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.service.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.router.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\app.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\server.js"}
+{"level":"error","message":"Sun Oct 25 2020 08:46:32 GMT+0300 (GMT+03:00) | Uncaught Exception: Cannot find module '../.task.model'\nRequire stack:\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.db.repository.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.service.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\resources\\users\\user.router.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\app.js\n- D:\\RS SCHOOL\\node.js-2020-Q3\\nodejs-course-template\\src\\server.js"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/6c2a8246-a7db-46f8-9ee7-2e1563cc77ec, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/6c2a8246-a7db-46f8-9ee7-2e1563cc77ec, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/89e3e181-9fd6-4c2a-b412-845b199cdefb, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/1065afea-38e8-4be0-b09a-52fe287abc00, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 1065afea-38e8-4be0-b09a-52fe287abc00}, query_params: null }"}
+{"level":"info","message":"{ url: /users/1065afea-38e8-4be0-b09a-52fe287abc00, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/1065afea-38e8-4be0-b09a-52fe287abc00, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/03a1a2b5-4f81-4951-957d-643374008e7d, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f096fd6f-3334-49e1-acc7-3d6a6c0632db/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 93f3c9ea-9910-4fb0-a702-89e73c738976, boardId: f096fd6f-3334-49e1-acc7-3d6a6c0632db}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f096fd6f-3334-49e1-acc7-3d6a6c0632db/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 93f3c9ea-9910-4fb0-a702-89e73c738976, boardId: f096fd6f-3334-49e1-acc7-3d6a6c0632db}, query_params: null }"}
+{"level":"info","message":"{ url: /users/93f3c9ea-9910-4fb0-a702-89e73c738976, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f096fd6f-3334-49e1-acc7-3d6a6c0632db/tasks/2ca7d261-7bfd-44bd-9be2-d06a310a4733, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/06365209-794a-4692-b5db-eb35eeae6a56, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1f52b5a5-3fa1-4e93-b8e5-0c0b5bda474f, method: PUT, body: {id: 1f52b5a5-3fa1-4e93-b8e5-0c0b5bda474f, columns: [{\"id\":\"1a3ca9b3-200a-446a-ae38-c83b4affd5d7\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"8a18c1f1-7256-460f-af8f-38b9fc2f06d4\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1f52b5a5-3fa1-4e93-b8e5-0c0b5bda474f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1f52b5a5-3fa1-4e93-b8e5-0c0b5bda474f, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/966caeda-d433-46b5-a281-5e1275aacf7b, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/966caeda-d433-46b5-a281-5e1275aacf7b, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:08 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/966caeda-d433-46b5-a281-5e1275aacf7b, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/1498f0f8-9ec0-4b66-b76c-9bbc8ce4c4d9, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/35b65807-ab15-44b2-943f-1fd149d0f74e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/3984f381-43c6-4755-84d3-718ef536db97, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/fd4cdae3-fecb-4095-9e52-6728c6d6f643, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/2846f503-1743-4393-91bc-13d62450d65d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/1498f0f8-9ec0-4b66-b76c-9bbc8ce4c4d9, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/2846f503-1743-4393-91bc-13d62450d65d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/35b65807-ab15-44b2-943f-1fd149d0f74e, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/3984f381-43c6-4755-84d3-718ef536db97, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/fd4cdae3-fecb-4095-9e52-6728c6d6f643, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:09 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/1498f0f8-9ec0-4b66-b76c-9bbc8ce4c4d9, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:09 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/2846f503-1743-4393-91bc-13d62450d65d, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:09 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/35b65807-ab15-44b2-943f-1fd149d0f74e, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:09 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/fd4cdae3-fecb-4095-9e52-6728c6d6f643, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:09 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/8e315dbc-cc1c-4c6f-bc8e-3d213ac9c760/tasks/3984f381-43c6-4755-84d3-718ef536db97, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/7ba14cdc-71eb-44c3-b03f-e6bf1a366625, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6ce4cb3a-419b-46c2-9df7-f7219545c280, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6f5d78e8-253c-4ac1-ab8b-87fd8f460ff7, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/3bcca16a-13c7-4093-8044-e8c950a65e92, method: PUT, body: {id: 3bcca16a-13c7-4093-8044-e8c950a65e92, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: 00f83782-c2b3-4c3d-9e96-67efe8e13aed, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/3bcca16a-13c7-4093-8044-e8c950a65e92, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6ce4cb3a-419b-46c2-9df7-f7219545c280, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6ce4cb3a-419b-46c2-9df7-f7219545c280, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6ce4cb3a-419b-46c2-9df7-f7219545c280, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:48:11 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed/tasks/6ce4cb3a-419b-46c2-9df7-f7219545c280, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/00f83782-c2b3-4c3d-9e96-67efe8e13aed, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/20751a47-98dd-4544-bbf6-97c523d0b5c5, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/20751a47-98dd-4544-bbf6-97c523d0b5c5, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/bf8b146b-edd4-4eaa-b912-be24455a0c0b, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/194d7498-725f-46dd-b92b-5d1b3563fe43, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: 194d7498-725f-46dd-b92b-5d1b3563fe43}, query_params: null }"}
+{"level":"info","message":"{ url: /users/194d7498-725f-46dd-b92b-5d1b3563fe43, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/194d7498-725f-46dd-b92b-5d1b3563fe43, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/ac3ad9a5-03a0-47e5-bb3b-0a6975f981ef, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 6f368db4-b605-47ff-9de5-5fd667a79474, boardId: 50ef3f77-632c-4aef-9e26-1bcda14c9676}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 6f368db4-b605-47ff-9de5-5fd667a79474, boardId: 50ef3f77-632c-4aef-9e26-1bcda14c9676}, query_params: null }"}
+{"level":"info","message":"{ url: /users/6f368db4-b605-47ff-9de5-5fd667a79474, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks/8ddf0ed7-6fb3-4cb4-8460-3ae7bc5e1b79, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks/bff9bab8-61a4-4e5f-b6b6-86bb951c05bb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks/8ddf0ed7-6fb3-4cb4-8460-3ae7bc5e1b79, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676/tasks/bff9bab8-61a4-4e5f-b6b6-86bb951c05bb, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/50ef3f77-632c-4aef-9e26-1bcda14c9676, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/1c079e01-7541-489b-906f-05e05754057f, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/224c021a-bdf0-4a9a-a0b7-ec2a9a928058, method: PUT, body: {id: 224c021a-bdf0-4a9a-a0b7-ec2a9a928058, columns: [{\"id\":\"14890b58-b076-46c0-a8e6-4305032c3b65\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"fdf7fd10-719e-43b7-832d-d3330442deaa\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/224c021a-bdf0-4a9a-a0b7-ec2a9a928058, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/224c021a-bdf0-4a9a-a0b7-ec2a9a928058, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/048804fe-f9c3-42f6-8d16-0277dc92ad91, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/048804fe-f9c3-42f6-8d16-0277dc92ad91, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:26 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/048804fe-f9c3-42f6-8d16-0277dc92ad91, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: b8353651-dd42-4bb6-854e-8802f9ef8290, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: b8353651-dd42-4bb6-854e-8802f9ef8290, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: b8353651-dd42-4bb6-854e-8802f9ef8290, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: b8353651-dd42-4bb6-854e-8802f9ef8290, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: b8353651-dd42-4bb6-854e-8802f9ef8290, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/a3d2fa38-661d-42e7-b7b5-3da1f7298cef, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/37179611-e926-475c-83b0-4befc4f2d025, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/2d82aab7-6cb5-4e6d-b1bd-a82849fb284d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/ff69dfa5-960a-4aa4-9870-a98614e9ee02, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/5c5486dd-4073-4951-a76b-d1759ae2f754, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/a3d2fa38-661d-42e7-b7b5-3da1f7298cef, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/5c5486dd-4073-4951-a76b-d1759ae2f754, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/37179611-e926-475c-83b0-4befc4f2d025, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/2d82aab7-6cb5-4e6d-b1bd-a82849fb284d, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/ff69dfa5-960a-4aa4-9870-a98614e9ee02, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:28 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/a3d2fa38-661d-42e7-b7b5-3da1f7298cef, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:28 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/37179611-e926-475c-83b0-4befc4f2d025, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:28 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/2d82aab7-6cb5-4e6d-b1bd-a82849fb284d, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:28 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/ff69dfa5-960a-4aa4-9870-a98614e9ee02, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:28 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/b8353651-dd42-4bb6-854e-8802f9ef8290/tasks/5c5486dd-4073-4951-a76b-d1759ae2f754, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/bb17cc3c-3bbc-4912-9e4c-1b4d12a24518, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/a9764018-9583-4803-935c-318aed217b76, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/dfdf7d4b-8007-456c-8345-b670330c5565, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/65a544de-caa8-45cc-9f39-ee3f21214a2a, method: PUT, body: {id: 65a544de-caa8-45cc-9f39-ee3f21214a2a, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: c9da6a97-68e6-4603-8602-53ac7d74a53b, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/65a544de-caa8-45cc-9f39-ee3f21214a2a, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/a9764018-9583-4803-935c-318aed217b76, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/a9764018-9583-4803-935c-318aed217b76, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/a9764018-9583-4803-935c-318aed217b76, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 08:50:30 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b/tasks/a9764018-9583-4803-935c-318aed217b76, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/c9da6a97-68e6-4603-8602-53ac7d74a53b, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/989b4ecf-7919-40d9-8d1a-70ad83a8cd36, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/989b4ecf-7919-40d9-8d1a-70ad83a8cd36, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/11d77fff-e292-4a4e-bb67-8f66b46baa5e, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/eba3d1b2-be0a-4c5c-9bd7-dc7fb188c1ea, method: PUT, body: {name: Autotest updated TEST_USER, login: test_user, password: T35t_P@55w0rd, id: eba3d1b2-be0a-4c5c-9bd7-dc7fb188c1ea}, query_params: null }"}
+{"level":"info","message":"{ url: /users/eba3d1b2-be0a-4c5c-9bd7-dc7fb188c1ea, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users/eba3d1b2-be0a-4c5c-9bd7-dc7fb188c1ea, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /users/3cd022cc-df0b-467a-af59-f554649f55ed, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /users, method: POST, body: {name: TEST_USER, login: test_user, password: T35t_P@55w0rd}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, userId: 8be8bb2a-e3e8-4677-8879-69ce32e10671, boardId: 18f58a32-0da5-43cc-8ce7-f47700adcd72}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, userId: 8be8bb2a-e3e8-4677-8879-69ce32e10671, boardId: 18f58a32-0da5-43cc-8ce7-f47700adcd72}, query_params: null }"}
+{"level":"info","message":"{ url: /users/8be8bb2a-e3e8-4677-8879-69ce32e10671, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks/65cf5676-36ea-42a7-8af6-b3aaf6ac73f2, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks/17ab03d9-37b0-415a-b259-d8ac0ef13a05, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks/65cf5676-36ea-42a7-8af6-b3aaf6ac73f2, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72/tasks/17ab03d9-37b0-415a-b259-d8ac0ef13a05, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/18f58a32-0da5-43cc-8ce7-f47700adcd72, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/21ba5623-85e2-489e-9c0b-cace74e1d2f7, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/3532fe9a-8989-40bf-bc0b-3153fadade45, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f219d726-e9f9-4d35-94d3-b75999542244, method: PUT, body: {id: f219d726-e9f9-4d35-94d3-b75999542244, columns: [{\"id\":\"247f50f5-db0c-4920-b86c-087158153c7e\",\"title\":\"Backlog\",\"order\":1},{\"id\":\"a6465445-88fe-48c4-89dd-93215738fae9\",\"title\":\"Sprint\",\"order\":2}], title: Autotest updated board}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f219d726-e9f9-4d35-94d3-b75999542244, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/f219d726-e9f9-4d35-94d3-b75999542244, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/df5c6ca7-2807-48b2-912d-38a58dae4b61, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/df5c6ca7-2807-48b2-912d-38a58dae4b61, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:19 GMT+0300 (GMT+03:00) | Error 404: Board not found | Request: { url: /boards/df5c6ca7-2807-48b2-912d-38a58dae4b61, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks, method: POST, body: {title: Task #1, order: 1, description: Lorem ipsum, boardId: 2644c7b1-a096-40f9-8287-d182b236d265, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks, method: POST, body: {title: Task #2, order: 2, description: Lorem ipsum, boardId: 2644c7b1-a096-40f9-8287-d182b236d265, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks, method: POST, body: {title: Task #3, order: 3, description: Lorem ipsum, boardId: 2644c7b1-a096-40f9-8287-d182b236d265, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks, method: POST, body: {title: Task #4, order: 4, description: Lorem ipsum, boardId: 2644c7b1-a096-40f9-8287-d182b236d265, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks, method: POST, body: {title: Task #5, order: 5, description: Lorem ipsum, boardId: 2644c7b1-a096-40f9-8287-d182b236d265, userId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/25497420-86de-4cde-93e9-1aa087087e24, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ad2f7ff6-2c7a-4576-86f8-540f77ffb9f0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/75323f03-d0bf-4f72-b57d-cfc17fd01fcb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ecf8ac14-fdc1-47c7-8422-7ff7f4ce672f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/fe6ae47d-0d05-435f-816a-62c9aed2e32f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/25497420-86de-4cde-93e9-1aa087087e24, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ad2f7ff6-2c7a-4576-86f8-540f77ffb9f0, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/75323f03-d0bf-4f72-b57d-cfc17fd01fcb, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ecf8ac14-fdc1-47c7-8422-7ff7f4ce672f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/fe6ae47d-0d05-435f-816a-62c9aed2e32f, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:20 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ad2f7ff6-2c7a-4576-86f8-540f77ffb9f0, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:20 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/fe6ae47d-0d05-435f-816a-62c9aed2e32f, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:20 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/25497420-86de-4cde-93e9-1aa087087e24, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:20 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/75323f03-d0bf-4f72-b57d-cfc17fd01fcb, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:20 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/2644c7b1-a096-40f9-8287-d182b236d265/tasks/ecf8ac14-fdc1-47c7-8422-7ff7f4ce672f, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/eb77261a-9e5a-434d-843d-848e5ed9f8e2, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards, method: POST, body: {title: Autotest board, columns: [{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/09a29a68-15ac-444b-ab22-c180606df147, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/5fe42c7d-39e9-450d-9f25-2b3df102ad18, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks, method: POST, body: {title: Autotest task, order: 0, description: Lorem ipsum, userId: null, boardId: null, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/45c92525-9d79-4086-b742-1c2fc2f96d35, method: PUT, body: {id: 45c92525-9d79-4086-b742-1c2fc2f96d35, title: Autotest updated task, order: 0, description: Lorem ipsum, userId: null, boardId: e795535a-fd10-4d85-b067-5fb7b9e3e574, columnId: null}, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/45c92525-9d79-4086-b742-1c2fc2f96d35, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/09a29a68-15ac-444b-ab22-c180606df147, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/09a29a68-15ac-444b-ab22-c180606df147, method: DELETE, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/09a29a68-15ac-444b-ab22-c180606df147, method: GET, body: null, query_params: null }"}
+{"level":"warn","message":"Sun Oct 25 2020 09:56:22 GMT+0300 (GMT+03:00) | Error 404: Task not found | Request: { url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574/tasks/09a29a68-15ac-444b-ab22-c180606df147, method: GET, body: null, query_params: null }"}
+{"level":"info","message":"{ url: /boards/e795535a-fd10-4d85-b067-5fb7b9e3e574, method: DELETE, body: null, query_params: null }"}
