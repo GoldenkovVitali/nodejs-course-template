@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 const { MONGO_CONNECTION_STRING } = require('../src/common/config');
+const { postUser } = require('../src/resources/users/user.service');
+
+const MOCK_USER = { login: 'admin', password: 'admin' };
 
 const connectToDB = cb => {
   mongoose.connect(MONGO_CONNECTION_STRING, {
@@ -13,6 +16,7 @@ const connectToDB = cb => {
 
   db.once('open', async () => {
     console.log('DB connected!');
+    await postUser(MOCK_USER);
     cb();
   });
 };

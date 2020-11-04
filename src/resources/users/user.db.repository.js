@@ -10,6 +10,11 @@ const getOneById = async id => {
   return user !== null ? user : undefined;
 };
 
+const getOneByLogin = async ({ login }) => {
+  const user = (await User.find({ login }).exec())[0];
+  return user;
+};
+
 const postOne = async data => {
   const user = await User.create(data);
   return user;
@@ -25,4 +30,11 @@ const deleteOneById = async id => {
   return isDeleted;
 };
 
-module.exports = { getAll, getOneById, postOne, putOneById, deleteOneById };
+module.exports = {
+  getAll,
+  getOneById,
+  postOne,
+  putOneById,
+  deleteOneById,
+  getOneByLogin
+};
